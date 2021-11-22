@@ -1,0 +1,152 @@
+.badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 1;
+    border-radius: 0;
+    background-color: #ff6f61 !important;
+}
+.product-container {
+    width: 100%;
+}
+.product-card {
+    position: relative;
+    background: #fff;
+    border: none;
+   
+}
+.product-card:hover {
+    box-shadow: 0 0.25rem 0.5625rem -0.0625rem rgb(0 0 0 / 3%),
+        0 0.275rem 1.25rem -0.0625rem rgb(0 0 0 / 5%);
+}
+.product-card:hover .product-icons {
+    opacity: 1;
+    right: 15px;
+}
+.product-card .product-icons {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.35s ease;
+    opacity: 0;
+    z-index: 1;
+}
+.product-card .product-icons .btn-icon {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 10px;
+    background: #fff;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15 ease-in-out;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-card:hover .img-fluid {
+    transform: scale(1.1);
+}
+.product-card .img-fluid {
+    transform: scale(1);
+    transition: ease all 0.35s;
+    width: 100%;
+}
+.product-card-info {
+    margin-top: 3px;
+    position: relative;
+    padding: 10px 15px 15px;
+    text-align: justify;
+}
+
+.product-title {
+    font-weight: 900;
+    margin: 0 0 6px;
+    font-size: 0.93rem;
+    line-height: 1.2;
+}
+.product-price span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-price del {
+    font-size: 14px;
+    color: #7d879c !important;
+}
+.size-thumbnails {
+    margin-top: 10px;
+}
+.product-card-info .form-check {
+    margin: 0 2px;
+}
+.radio-text {
+    position: relative;
+    padding: 0;
+}
+.form-check-inline {
+    display: inline-block;
+}
+.form-check {
+    min-height: 1.581rem;
+}
+.radio-text .form-check-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: 0;
+}
+.form-check-input[type="radio"] {
+    border-radius: 50%;
+}
+.form-check .form-check-input {
+    float: left;
+}
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    background-color: #f6f9fc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    appearance: none;
+}
+input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.radio-text .radio-text-label {
+    min-width: 2rem;
+    height: 2rem;
+    font-size: .75rem;
+    border: 1px solid #9D9D9D;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.radio-text-label:hover {
+    border-color: #1E5128;
+    color: #1E5128;
+}
+.btn-icon:hover {
+    color: #000;
+}

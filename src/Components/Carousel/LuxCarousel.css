@@ -1,0 +1,23 @@
+.carousel-holder {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.luxcarousel-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.image-carousel {
+    width: 100%;
+    height: 500px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

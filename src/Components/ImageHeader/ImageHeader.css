@@ -1,0 +1,113 @@
+.categories {
+    overflow: hidden;
+    display: block;
+    margin-top: 0px;
+    cursor: default;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 5px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6 {
+    padding: 0;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.dresses {
+    height: 638px;
+    background-image: url('https://images.pexels.com/photos/6945619/pexels-photo-6945619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.shoes {
+    height: 314px;
+    background-image: url('https://images.unsplash.com/photo-1519415943484-9fa1873496d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+}
+
+.active-wear {
+    height: 314px;
+    background-image: url('https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+}
+.cosmetics {
+    height: 314px;
+    background-image: url('https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+}
+.accessories {
+    height: 314px;
+    background-image: url('https://images.unsplash.com/photo-1559563458-527698bf5295?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+}
+

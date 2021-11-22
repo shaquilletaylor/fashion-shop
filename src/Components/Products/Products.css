@@ -1,0 +1,46 @@
+/* h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+} */
+
+/********************* Responsive *******************/
+
+/* @media only screen and (min-width: 1200px) {
+    .products-container {
+        max-width: 1200px;
+     
+    }
+}
+
+@media (min-width: 1400px) {
+    .products-container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .products-container {
+        max-width: 1140px;
+    }
+} */
+
+@media (min-width: 992px) {
+    .products-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .products-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .products-container {
+        max-width: 1140px;
+    }
+}
