@@ -8,7 +8,7 @@
 
 /********************* Responsive *******************/
 
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .products-container {
         max-width: 1200px;
      
@@ -25,7 +25,7 @@
     .products-container {
         max-width: 1140px;
     }
-} */
+}
 
 @media (min-width: 992px) {
     .products-container {
@@ -41,6 +41,6 @@
 
 @media (min-width: 576px) {
     .products-container {
-        max-width: 1140px;
+        max-width: 540px;
     }
 }

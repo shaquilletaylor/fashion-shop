@@ -30,6 +30,9 @@
     font-size: 1rem;
     line-height: 1;
 }
+.fas {
+    font-size: 1.2rem;
+}
 .announcement-info-text {
     flex: 1 0 0%;
     padding-left: 1rem;

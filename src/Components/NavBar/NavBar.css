@@ -1,13 +1,14 @@
 .navbar {
   display: flex;
   width: 100%;
+  font-family: 'Nunito', sans-serif;
 }
+
 .navbar-brand {
   flex: 1;
-}
-.fas, .far {
-  padding: 0.3rem 0.6rem;
-  display: block;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 .navbar-icon-links {
   align-items: center;
@@ -16,5 +17,18 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  
+}
+.nav-link {
+  padding: 0.3rem 0.6rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+.navbar-icon {
+  font-size: 0.93rem;
+  display: inline-block;
+  text-decoration: none;
+}
+i:hover {
+  color: #1E5128;
 }

@@ -42,7 +42,7 @@ const SocialImages = ({ item }) => {
         <>
             
             <Container>
-                <h1>FEATURED SOCIAL MEDIA LOOKS</h1>
+                <h1 className="social-title">FEATURED SOCIAL MEDIA LOOKS</h1>
                 <div className="glide">
                     <div className="glide__track" data-glide-el="track">
                         <ul className="glide__slides">

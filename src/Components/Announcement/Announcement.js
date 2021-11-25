@@ -14,7 +14,6 @@ const Announcement = () => {
                             </div>
                             <div className="announcement-info-text ps-3">
                                 <h6 className="mb-1">Fast and Free Shipping</h6>
-                                <p className="m-0">Lorem Ipsum and some more text</p>
                             </div>
                         </div>
                     </div>
@@ -25,7 +24,6 @@ const Announcement = () => {
                             </div>
                             <div className="col ps-3">
                                 <h6 className="mb-1">24/7 Support</h6>
-                                <p className="m-0">Lorem Ipsum and some more text</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +34,6 @@ const Announcement = () => {
                             </div>
                             <div className="col ps-3">
                                 <h6 className="mb-1">30 Day Returns</h6>
-                                <p className="m-0">Lorem Ipsum and some more text</p>
                             </div>
                         </div>
                     </div>
@@ -47,7 +44,6 @@ const Announcement = () => {
                             </div>
                             <div className="col ps-3">
                                 <h6 className="mb-1">Secure Payments</h6>
-                                <p className="m-0">Lorem Ipsum and some more text</p>
                             </div>
                         </div>
                     </div>

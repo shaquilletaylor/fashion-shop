@@ -25,7 +25,7 @@ const Footer = () => {
                                     555-555-5555
                                 </p>
                             </address>
-                            <div className="nav footer-links fs-5">
+                            <div className="footer-links fs-5">
                                 <a className="footer-links me-3" href="index.html"><i class="fab fa-facebook"></i></a>
                                 <a className="footer-links me-3" href="index.html"><i class="fab fa-twitter"></i></a>
                                 <a className="footer-links me-3" href="index.html"><i class="fab fa-instagram"></i></a>
@@ -88,9 +88,7 @@ const Footer = () => {
             <hr />
             <div className="footer-bottom py-2">
                 <div className="container">
-                        <div className="col-md-6 py-1">
-                            <p className="copyright m-0">© 2021 Copyright by the creole web cafe</p>
-                        </div>
+                    <p className="copyright m-0">© 2021 Copyright by the creole web cafe</p>
                 </div>
             </div>
         </footer>
